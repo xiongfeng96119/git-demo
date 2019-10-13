@@ -1,0 +1,17 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: LAIGOU-ZUUL
+
+zuul:
+  ignoredServices: '*' #只能通过路由访问，不能使用服务名访问
+  routes:
+    plat:
+      serviceId: LAIGOU-PLAT
+      path: /plat/**
+    product:
+      serviceId: LAIGOU-PRODUCT
+      path: /product/**
+  prefix: /services
