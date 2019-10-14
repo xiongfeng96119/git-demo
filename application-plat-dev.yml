@@ -9,5 +9,5 @@ eureka:
     prefer-ip-address: true
   client:
     serviceUrl:
-      defaultZone: http://root:xf1234@localhost:8761/eureka/ //eureka地址
+      defaultZone: http://root:xf1234@localhost:8761/eureka/
 
