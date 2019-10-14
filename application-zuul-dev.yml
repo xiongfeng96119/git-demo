@@ -14,4 +14,7 @@ zuul:
     product:
       serviceId: LAIGOU-PRODUCT
       path: /product/**
+    common: #添加common公共服务的路由 
+      serviceId: AIGOU-COMMON 
+      path: /common/**
   prefix: /services
