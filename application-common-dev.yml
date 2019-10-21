@@ -4,3 +4,6 @@ server:
 spring: 
   application: 
     name: LAIGOU-COMMON #服务名称
+  data:
+    elasticsearch:
+      cluster-name: localhost:9300
